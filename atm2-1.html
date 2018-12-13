@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/atm2-1.css">
+
+    <title>atm2-1</title>
+</head>
+<body>     
+    <div class="entire-AtmScreen-1"></div>
+    <div class="entire-AtmScreen">
+<!-- <div class="top-AtmScreen-border"></div> -->
+        <div class="bank-of scroll-left">
+            <h1>International Bank of Tazz</h1>
+        </div><br>
+        <div class="keyboard">
+            <div class="insert card-slot">
+                <img src="imgs/insert-card.jpg" alt="Ensert card">
+                <div class="card"><a href="atm(2)accept-card.html"><img src="imgs/actual-card.png" alt=""></a>
+                </div>
+            </div>
+            <div class="reciept-out"></div>
+            <div class="reciept">
+                <img class="reciept" src="imgs/reciept.jpg" alt="">
+            </div>
+            <div class="output-buttons">
+                <input type="button" class="buttons-position-1">
+                <input type="button" class="buttons-position-2">
+                <input type="button" class="buttons-position-3">
+                <input type="button" class="buttons-position-4">
+                <input type="button" class="buttons-position-5">
+                <input type="button" class="buttons-position-6">
+
+            </div>
+            <div class="screen-output">
+                <!-- <div class="output"></div> -->
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="hint-screen">
+                        <!-- <p>Please enter<br> in your card</p> -->
+                    </div>
+                    <div class="cash-out">
+                        <img src="imgs/cash-out.jpg" alt="">
+                    </div>
+                    <!-- <div class="cash"> -->
+                        <!-- <img src="imgs/actual-card.png" alt=""> -->
+                    <!-- </div> -->
+                    <div class="numbers col-sm-4">
+                        <input type="button" id="num0" class="btn" value="1"/>
+                        <input type="button" id="num1" class="btn" value="2"/>
+                        <input type="button" id="num2" class="btn" value="3"/>
+                        <input type="button" id="num3" class="btn" value="4"/>
+                        <input type="button" id="num4" class="btn" value="5"/>
+                        <input type="button" id="num5" class="btn" value="6"/>
+                        <input type="button" id="num6" class="btn" value="7"/>
+                        <input type="button" id="num7" class="btn" value="8"/>
+                        <input type="button" id="num8" class="btn" value="9"/>
+                        <input type="button" id="num9" class="btn" value="0"/>
+                        <input type="button" id="Clr" class="btnDC" value="CLR" onclick ="clearPassword()"/>
+                        <input type="button" id="Del" class="btnDC" value="DEL" onClick="deleteChar()"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="entire-AtmScreen-2"></div>
+    <div class="hint-screen-output" style="overflow-y: scroll; max-height: 88px;max-width: 185px;" id="hint"></div>
+
+</body>
+</html>

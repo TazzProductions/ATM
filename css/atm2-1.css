@@ -1,0 +1,403 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+.entire-AtmScreen{
+    background-color: rgb(31, 30, 30);
+    margin-left: 555px;
+    margin-right: 406px;
+    margin-top: 25px;
+    
+}
+.entire-AtmScreen-1{
+    position: absolute;
+    top: 0;
+    width: 79px;
+    height: 810px;
+    border-top: 25px solid transparent;
+    border-left: 554px solid #555;
+    border-bottom: 24px solid transparent;
+    /* margin-right: 406px; */
+
+}
+
+.top-AtmScreen-border{
+    display: inline-block;
+    padding: 35px 350px;
+    margin-left: 430px;
+    background-color: black;
+}
+.keyboard {
+    border-bottom: 233px solid #555;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    height: 655px;
+    /* margin-left: 200px; */
+    width: 861px;
+    margin-bottom: 0px;
+}
+.btn{
+    height: 35px;
+    width: 35px;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-weight: 700;
+    box-shadow: 0 5px #999;
+            
+}
+.btnDC{
+    height: 35px;
+    width: 35px;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding-right: 1px;
+    font-size: 11px;
+    padding-left: 0px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 0 5px #999;
+    border-radius: 9px;
+
+
+        
+}
+.keys{
+    position: absolute;
+    top: 557px;
+    margin-left: -55px;
+}
+.numbers{
+    margin-top: -40px;
+    margin-left: 52px;
+    transform: perspective(177px) rotateX(7deg);
+    color: black;
+}
+.bank-of{
+    display: inline-block;
+    background-color: whitesmoke;
+    padding: 0px 340px;
+    margin-left: 100px;
+    margin-top: 8px;
+}
+.scroll-left {
+    height: 50px;	
+    overflow: hidden;
+    position: relative;
+    background: rgb(79, 108, 136);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+   }
+
+
+   /* ///////////////////////Scroll-bar-top/////////////// */
+   .scroll-left h1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    /* Starting position */
+    -moz-transform:translateX(100%);
+    -webkit-transform:translateX(100%);	
+    transform:translateX(100%);
+    /* Apply animation to this element */	
+    -moz-animation: scroll-left 15s linear infinite;
+    -webkit-animation: scroll-left 15s linear infinite;
+    animation: scroll-left 15s linear infinite;
+    /* margin-bottom: 20px; */
+   }
+   /* Move it (define the animation) */
+   @-moz-keyframes scroll-left {
+    0%   { -moz-transform: translateX(100%); }
+    100% { -moz-transform: translateX(-100%); }
+   }
+   @-webkit-keyframes scroll-left {
+    0%   { -webkit-transform: translateX(100%); }
+    100% { -webkit-transform: translateX(-100%); }
+   }
+   @keyframes scroll-left {
+    0%   { 
+    -moz-transform: translateX(100%); /* Browser bug fix */
+    -webkit-transform: translateX(100%); /* Browser bug fix */
+    transform: translateX(100%); 		
+    }
+    100% { 
+    -moz-transform: translateX(-100%); /* Browser bug fix */
+    -webkit-transform: translateX(-100%); /* Browser bug fix */
+    transform: translateX(-100%); 
+    }
+   }
+      /* ///////////////////////Scroll-bar-top/////////////// */
+
+   .screen-output{
+       text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* padding: 184px; */
+    background-color: #fff;
+    margin-left: 100px;
+    margin-right: 195px;
+    border-radius: 8px;
+    word-wrap: break-word;
+    margin-bottom: 0px;
+    /* background-image: url(screen.gif);
+    background-repeat: no-repeat; */
+    margin-top: -24px;
+
+   }
+   .hint-screen{
+    display: inline-block;
+    padding: 90px;
+    background-color: #fff;
+    /* position: absolute; */
+    /* top: 569px; */
+    margin-top: 50px;
+    margin-left: 465px;
+    transform: rotateX(1deg);
+    border-radius: 8px;
+
+}
+.output-buttons input{
+    display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  /* outline: none; */
+  color: #fff;
+  background-color: rgb(150, 194, 194);;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.buttons-position-1{
+    position: absolute;
+    top: 175px;
+    margin-left: 40px;
+}
+.buttons-position-2{
+    position: absolute;
+    top: 300px;
+    margin-left: 40px;
+
+}
+.buttons-position-3{
+    position: absolute;
+    top: 420px;
+    margin-left: 40px;
+}
+
+}
+.buttons-position-4{
+    position: absolute;
+    top: 175px;
+    margin-left: 480px
+
+}
+.buttons-position-5{
+    position: absolute;
+    top: 300px;
+    margin-left: 480px;
+
+}
+.buttons-position-6{
+    position: absolute;
+    top: 420px;
+    margin-left: 480px;
+
+}
+.card-slot{
+    /* display: inline-block;
+    background-color: rgb(114, 106, 106);  */
+    /* padding: 30px; */
+    position: absolute;
+    top: 177px;
+    margin-left: 557px;
+
+}
+.reciept{
+    text-align: center;
+    display: inline-block;
+    padding: 50px;
+    background-color: #fff;
+}
+.card-slot img{
+    width: 100px;
+    height: 80px;
+}
+.card{
+    position: absolute;
+    top: 43px;
+    bottom: 0;
+    left: 10px;
+    right: 9px;
+    /* background-color: #008CBA; */
+    overflow: hidden;
+    width: 75%;
+    height: 0;
+    transition: .5s ease;
+    /* transform: rotate(50deg) */
+}
+.card-slot:hover .card {
+    height: 100%;
+  }
+.cash-out img{
+    display: inline-block;
+    /* padding: 10px 100px; */
+    width: 198px;
+    height: 136px;
+    position: absolute;
+    top: 550px;
+    background-color: rgb(114, 106, 106);
+    margin-left: 244px;
+    transition: height .5s ease;
+        transform: rotateX(1deg);
+
+}
+/* .cash{
+    position: absolute;
+    top: 603px;
+    bottom: 0;
+    left: 689px;
+    right: 0px;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 12%;
+    height: 14px;
+} */
+.cash-out img:hover{
+    height: 25%;
+}
+.reciept-out{
+    display: inline-block;
+    padding: 16px 60px;
+    position: absolute;
+    top: 325px;
+    background-color: rgb(114, 106, 106);
+    margin-left: 530px;
+    border-radius: 13px;
+}
+.reciept{
+    position: absolute;
+    top: 338px;
+    margin-left: 541px;
+    width: 100px;
+    height: 10px;
+    /* background: rgb(112, 104, 104); */
+    -webkit-transition: height 2s ease;
+    transition: height 2s ease;
+        /* display: inline-block; */
+        /* padding: 50px; */
+        background-color: #fff;
+        display: flex;
+    flex-direction: column;
+    
+}
+.reciept {
+    position: absolute;
+    /* width: 100%; */
+    top: 338px;
+    margin-left: 540px;
+    transform: rotateX(1deg);
+}
+.reciept:hover {
+    height: 100px;
+
+}
+
+.entire-AtmScreen-2{
+    position: absolute;
+    top: 0;
+    width: 79px;
+    height: 886px;
+    border-right: 495px solid #555;
+    border-bottom: 52px solid transparent;
+    margin-left: 1112px;
+    /* width: 0; */
+    /* height: 0; */
+    border-top: 25px solid transparent;
+    /* border-top: 25px solid transparent; */
+    /* border-left: 413px solid #555; */
+    /* border-bottom: 24px solid transparent; */
+    transform: perspective(1.9px) rotatex(-0.1deg);
+    transform: perspective(1px) rotateY(-1deg);
+}
+
+
+
+
+
+.output{
+    /* position: absolute;
+    top: 185px;
+    margin-left: -176px;*/
+    margin-right: 0;
+    /* padding: 20px;
+    background-color: rgb(135, 228, 228); */
+}
+
+.transaction-1{
+    margin-left: -385px;
+    margin-top: -15px;
+}
+.transaction-2{
+    position: absolute;
+    top: 316px;
+    margin-left: 40px
+}
+.w{
+
+}
+.d{
+margin-top: 50px;
+}
+.rt{
+margin-top: 50px;
+}
+.t{
+
+}
+.b{
+margin-top: 66px;
+}
+.c{
+margin-top: 64px;
+}
+.rone{
+
+}
+.rtwo{
+
+}
+.rthree{
+
+}
+.rfour{
+
+}
+.output{
+    margin-top: 20px;
+}
+.mw{
+margin-top: 69px;
+}
+.md{
+margin-top: 50px;
+}
+.mrt{
+margin-top: 50px;
+}
+.mt{
+
+}
+.mb{
+margin-top: 66px;
+}
+.mc{
+margin-top: 64px;
+}
+.cash{
+    display: inline-block;
+    padding: 15px;
+}

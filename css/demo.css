@@ -1,0 +1,83 @@
+body{
+    background-image: url(atm.png);
+    background-repeat: no-repeat;
+    background-position:355px 50px;
+    background-color: gray;
+}
+.atm-{
+    margin-top: 253px;
+    margin-left: 233px;
+}
+.atm{
+    margin-top: 42px;
+    margin-left: 437px;
+}
+.atm-1{
+    margin-top: 0px;
+    margin-left: 233px;
+}
+.atm-2{
+    margin-top: 0px;
+    margin-left: 43px;
+}
+.button-3{
+    margin-left: 438px;
+}
+.y button{
+    margin-top: 15px;
+}
+.screen{
+    margin-left: 356px;
+    margin-top: 304px;
+}
+.screen p{
+    margin-left: 220px;
+    color: white;
+}
+
+.col-sm-6 {
+    margin-left: -4px;
+}
+.amount {
+    margin-left: 200px;
+}
+h3{
+    margin-left: 10px;
+    margin-top: -50px;
+    color: white
+}
+input{
+    color: rgb(0, 0, 0);
+}
+button{
+    margin-left: 10px;
+}
+.collect-cash{
+    margin-top: -0px;
+    margin-left: 233px;
+}
+.colected-cash{
+    margin-left: 233px;
+    margin-top: 78px;
+}
+.sure{
+    margin-top: 19px;
+    margin-left: 242px;
+
+}
+.complete{
+    margin-left: 207px;
+}
+.screen a{
+    text-decoration: none;
+}
+.bal{
+    margin-left: 214px;
+}
+.bal-but{
+    margin-top: 62px;
+    margin-left: 444px;
+}
+.tran{
+    margin-left: 212px;
+}

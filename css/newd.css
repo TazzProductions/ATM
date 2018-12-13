@@ -1,0 +1,164 @@
+.banner {
+    background-color: rebeccapurple;
+    color: gainsboro;
+    text-align: center;
+    border-radius: 35%;
+    
+}
+
+body {
+    background-color: thistle;
+}
+.pin {
+    background-color:rgb(250, 248, 245);
+    position: relative;
+    bottom: 375px;
+    left: 52px;
+    right: 15px;
+    margin-right: 735px;
+    margin-left: 128px;
+    color: darkorchid;
+}
+#pin{
+    margin-left: 25px;
+}
+
+.submit { 
+    background-color: salmon;
+    border-radius: 5px;
+}
+.keypad{
+    background-color:rebeccapurple;
+    color:snow;
+    border-radius: 15px;
+    height: 320px;
+    width: 410px;
+    border: 4px solid snow;
+    display: inline-block;
+    bottom: 430px;
+    position: relative;
+    left: 200px;
+}
+.keyrow{
+    margin-top: 10px;
+    padding-left: 10px;
+    position: sticky;
+}
+#clear:hover{
+    background-color: yellow;
+    color: snow;
+    font-weight: bold;
+}
+#clear{
+    font-weight: bold;
+    color: yellow;
+}
+#cancel:hover{
+    background-color: red;
+    color: snow;
+    font-weight: bold;
+}
+#cancel{
+    font-weight: bold;
+    color: red;
+}
+#spacer{
+    background-color: purple;
+    
+}
+#enter:hover{
+    font-weight: bold;
+    background-color: green;
+    color: snow;
+}
+#enter{
+    font-weight: bold;
+    color: green;
+    
+}
+table {
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 0px;
+    
+    
+}
+.example-table{
+    border-spacing: 20px;
+    border-collapse: separate;
+    
+}
+button {
+    border-radius: 8px;
+    cursor: pointer;
+    height: 50px;
+    width: 60px;
+}
+button:hover{
+    background-color: plum;
+}
+
+
+#left {
+    margin-top: 20px;
+    position: relative;
+    bottom:0px;
+    left: 50px;
+    border-radius: 25px;
+    width: 8%;
+    top: 45px;
+}
+
+#right {
+    margin-left: 475px;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    left: 200px;
+    bottom: 170px;
+    border-radius: 25px;
+    width: 8%;
+}
+.screen {
+    background-color: black;
+    height: 280px;
+    width: 470px;
+    position: relative;
+    bottom: 375px;
+    left: 180px;
+    color: palevioletred;
+}
+.cardreader{
+    height: 45px;
+    width: 235px;
+    background-color: rgb(60, 65, 65);
+    position: relative;
+    left: 70%;
+    bottom: 690px; 
+    border-radius: 2px;
+}
+.dispenser{
+    height: 25px;
+    width: 205px;
+    background-color: rgb(82, 79, 79);
+    position: relative;
+    left: 70%;
+    bottom: 570px;
+    border-radius: 5px;
+
+}
+.cardreader ul{
+    border-radius: 50px;
+    background-color: firebrick;
+    position: relative;
+}
+.card{
+    position: absolute;
+    bottom: 200px;
+    left: 925px;
+    z-index: 1;
+}
+.rotate{
+    transform: rotate(90deg);
+    
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/new.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div class="left-side-wall"></div> -->
+    <!-- <div class="turning-side"></div> -->
+    <div class="top-wall"></div>
+    <div class="ATM">
+            <div class="screen-output" style="overflow-y: scroll; height: 264px; width: 420px"><div class="output" id="screenOutput"></div></div>
+
+        <div class="buttons-with-ATM">
+            
+            <div class="output-buttons">
+                <form action="#" >
+                    <div class="whole-button-1">
+                        <input type="button" class="buttons-position-1">
+                        <input type="button" class="buttons-position-2">
+                        <input type="button" class="buttons-position-3">
+                    </div>
+                    <div class="whole-button-2">
+                        <input type="button" class="buttons-position-4">
+                        <input type="button" class="buttons-position-5">
+                        <input type="button" class="buttons-position-6">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="container">
+                <div class="row">
+                    <div class="keys">
+                        <div class="container">
+                            <div class="numbers row rone">
+                                <input type="button" id="num0" class="btn" value="1" onClick="showClickedButton(this.value);" />
+                                <input type="button" id="num1" class="btn" value="2" onClick="showClickedButton(this.value);"/>
+                                <input type="button" id="num2" class="btn" value="3" onClick="showClickedButton(this.value);"/>
+
+                                <div class="row rtwo">
+                                        <input type="button" id="num3" class="btn" value="4" onClick="showClickedButton(this.value);"/>
+                                    <input type="button" id="num4" class="btn" value="5" onClick="showClickedButton(this.value);"/>
+                                    <input type="button" id="num5" class="btn" value="6" onClick="showClickedButton(this.value);"/>
+                                </div>
+                                <div class="row rthree">
+                                    <input type="button" id="num6" class="btn" value="7" onClick="showClickedButton(this.value);"/>
+                                    <input type="button" id="num7" class="btn" value="8" onClick="showClickedButton(this.value);"/>
+                                    <input type="button" id="num8" class="btn" value="9" onClick="showClickedButton(this.value);"/>
+                                </div>
+                                <div class="row rfour">
+                                    <input type="button" id="num9" class="btn" value="0" onClick="showClickedButton(this.value);"/>
+                                    <input type="button" id="Del" class="btnDC" value="DEL" onClick="deleteChar()"/>
+                                    <input type="button" id="Clr" class="btnDC" value="CLR" onclick ="clearPassword()"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>                                          
+        </div>
+        <div class="reciept-out"></div><div class="reciept"  style="overflow-y: scroll;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;" id="reciept"></div>
+        <!-- <div class="cash" id="cash"></div> -->
+    </div>
+    </div>
+    <div class="bottom-wall"></div>
+    <div class="side-walk"></div>
+    <div class="side-walk-t">
+    <div class="card"><a href="atm(2)accept-card.html"><img src="imgs/actual-card.png" alt=""></a></div>
+    
+</div>
+<div class="entire-AtmScreen-1"></div>
+<div class="hint-screen">
+    <div class="hint-screen-output" style="overflow-y: scroll; max-height: 88px;max-width: 185px;" id="hint">
+        <p>To begin "Hover the mouse over the card slot located at the top right of the page, and press the card"</p>
+    </div>
+</div>
+    <script src="javascript/demo.js"></script>
+</body>
+</html>
+<!-- height: 100px; width: 200px -->
