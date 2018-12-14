@@ -2,7 +2,6 @@
 var screenOutput = document.getElementById('screenOutput');
 var hint = document.getElementById("hint");
 var nonChar = "";
-var nonChara = "";
 //////////////////////////////////////////////////////////////////////Varible Assignment//////////////////////////////////////////////////////////////////
 
 
@@ -12,6 +11,8 @@ var users = {
         ID: 'Tazz',
         pin: 1234,
         RT: [],
+         
+
         balance: 2000, 
     },
     user002: {
@@ -142,6 +143,7 @@ function confirmWT(){
     change10[4].setAttribute("onClick", "withdrawl();");
     change10[5].setAttribute("onClick", "withdrawl();");
 }
+
 function confirmWF(){
     screenOutput.innerHTML = '<h4>Are you Sure you would like to Withdrawl $40.00?</h4>' + '<div class="container"><div class="row"><div class="transaction-1 com-sm-6"><h5 class="mw"><pre class"tab" >Yes                 NO</pre></h5><h5  class="d"><pre class"tab"4>Yes                      NO</pre></h5><h5  class="rt"><pre class"tab" >Yes            NO</pre></h5></div><div class="transaction-2 com-sm-6"><h5  class="t"></h5><h5  class="b"></h5><h5  class="c"></h5></div></div></div></div></div></div>';
     var change10 = document.getElementsByTagName("input");
@@ -151,7 +153,9 @@ function confirmWF(){
     change10[3].setAttribute("onClick", "withdrawl();");
     change10[4].setAttribute("onClick", "withdrawl();");
     change10[5].setAttribute("onClick", "withdrawl();");
+
 }
+
 function confirmWS(){
     screenOutput.innerHTML = '<h4>Are you Sure you would like to Withdrawl $60.00?</h4>' + '<div class="container"><div class="row"><div class="transaction-1 com-sm-6"><h5 class="mw"><pre class"tab" >Yes                 NO</pre></h5><h5  class="d"><pre class"tab"4>Yes                      NO</pre></h5><h5  class="rt"><pre class"tab" >Yes            NO</pre></h5></div><div class="transaction-2 com-sm-6"><h5  class="t"></h5><h5  class="b"></h5><h5  class="c"></h5></div></div></div></div></div></div>';
     var change10 = document.getElementsByTagName("input");
@@ -162,6 +166,7 @@ function confirmWS(){
     change10[4].setAttribute("onClick", "withdrawl();");
     change10[5].setAttribute("onClick", "withdrawl();");
 }
+
 function confirmWE(){
     screenOutput.innerHTML = '<h4>Are you Sure you would like to Withdrawl $80.00?</h4>' + '<div class="container"><div class="row"><div class="transaction-1 com-sm-6"><h5 class="mw"><pre class"tab" >Yes                 NO</pre></h5><h5  class="d"><pre class"tab"4>Yes                      NO</pre></h5><h5  class="rt"><pre class"tab" >Yes            NO</pre></h5></div><div class="transaction-2 com-sm-6"><h5  class="t"></h5><h5  class="b"></h5><h5  class="c"></h5></div></div></div></div></div></div>';
     var change10 = document.getElementsByTagName("input");
@@ -172,6 +177,7 @@ function confirmWE(){
     change10[4].setAttribute("onClick", "withdrawl();");
     change10[5].setAttribute("onClick", "withdrawl();");
 }
+
 function confirmWO(){
     screenOutput.innerHTML = '<h4>Are you Sure you would like to Withdrawl $100.00?</h4>' + '<div class="container"><div class="row"><div class="transaction-1 com-sm-6"><h5 class="mw"><pre class"tab" >Yes                 NO</pre></h5><h5  class="d"><pre class"tab"4>Yes                      NO</pre></h5><h5  class="rt"><pre class"tab" >Yes            NO</pre></h5></div><div class="transaction-2 com-sm-6"><h5  class="t"></h5><h5  class="b"></h5><h5  class="c"></h5></div></div></div></div></div></div>';
     var change10 = document.getElementsByTagName("input");
@@ -182,6 +188,7 @@ function confirmWO(){
     change10[4].setAttribute("onClick", "withdrawl();");
     change10[5].setAttribute("onClick", "withdrawl();");
 }
+
 function confirmWOT(){
     screenOutput.innerHTML = '<h4>Are you Sure you would like to Withdrawl $120.00?</h4>' + '<div class="container"><div class="row"><div class="transaction-1 com-sm-6"><h5 class="mw"><pre class"tab" >Yes                 NO</pre></h5><h5  class="d"><pre class"tab"4>Yes                      NO</pre></h5><h5  class="rt"><pre class"tab" >Yes            NO</pre></h5></div><div class="transaction-2 com-sm-6"><h5  class="t"></h5><h5  class="b"></h5><h5  class="c"></h5></div></div></div></div></div></div>';
     var change10 = document.getElementsByTagName("input");
@@ -194,6 +201,7 @@ function confirmWOT(){
 }
 ///////////////////////////////////confirm Withdrawl/////////////////////////////
 /////////////////////////////////Withdrawl Amounts///////////////////////////////
+
 function twenty(){
     var newbalance = users.user001.balance - 20 - 3.75;
     users.user001.balance = newbalance;
@@ -214,6 +222,7 @@ function twenty(){
     var printReciept = document.getElementById("reciept");
     printReciept.innerHTML += RecentT.W;
 }
+
 function forty(){
     var newbalance = users.user001.balance - 40 - 3.75;
     users.user001.balance = newbalance;
@@ -232,6 +241,7 @@ function forty(){
     var printReciept = document.getElementById("reciept");
     printReciept.innerHTML += RecentT.W;
 }
+
 function sixty(){
     var newbalance = users.user001.balance - 60 - 3.75;
     users.user001.balance = newbalance;
@@ -250,6 +260,7 @@ function sixty(){
     var printReciept = document.getElementById("reciept");
     printReciept.innerHTML += RecentT.W;
 }
+
 function eighty(){
     var newbalance = users.user001.balance - 80 - 3.75;
     users.user001.balance = newbalance;
@@ -268,6 +279,7 @@ function eighty(){
     var printReciept = document.getElementById("reciept");
     printReciept.innerHTML += RecentT.W;
 }
+
 function onehundred(){
     var newbalance = users.user001.balance - 100 - 3.75;
     users.user001.balance = newbalance;
@@ -286,6 +298,7 @@ function onehundred(){
     var printReciept = document.getElementById("reciept");
     printReciept.innerHTML += RecentT.W;
 }
+
 function onetwenty(){
     var newbalance = users.user001.balance - 120 - 3.75;
     users.user001.balance = newbalance;
@@ -293,6 +306,7 @@ function onetwenty(){
     var ywd = "<br><h4>You widtdrew $120.00 from your account</h4>";
     RecentT.W += '<h5>Your Cureent balance is:</h5>' + newbalance + ywd ;
     screenOutput.innerHTML += "<h4>Would you like to Make anoter transaction?</h4>";    
+    
     var change9 = document.getElementsByTagName("input");
     change9[0].setAttribute("onClick", "Continue();");
     change9[1].setAttribute("onClick", "Continue();");
@@ -300,6 +314,7 @@ function onetwenty(){
     change9[3].setAttribute("onClick", "enterPage()");
     change9[4].setAttribute("onClick", "enterPage()");
     change9[5].setAttribute("onClick", "enterPage()");
+
     screenOutput.innerHTML += '<div class="container"><div class="row"><div class="transaction-1 com-sm-6"><h5 class="rt"><pre class="tab"> Continue                 Cancel</pre></h5></div><div class="transaction-2 com-sm-6"><h5 class="c"></h5></div></div></div>';
     var printReciept = document.getElementById("reciept");
     printReciept.innerHTML += RecentT.W;
@@ -341,6 +356,7 @@ function Dtwenty(){
     var printReciept = document.getElementById("reciept");
     printReciept.innerHTML += RecentT.D;
 }
+
 function Dforty(){
     var newbalance = users.user001.balance + 40 - 3.75;
     users.user001.balance = newbalance;
@@ -359,6 +375,7 @@ function Dforty(){
     var printReciept = document.getElementById("reciept");
     printReciept.innerHTML += RecentT.D;
 }
+
 function Dsixty(){
     var newbalance = users.user001.balance + 60 - 3.75;
     users.user001.balance = newbalance;
@@ -377,6 +394,7 @@ function Dsixty(){
     var printReciept = document.getElementById("reciept");
     printReciept.innerHTML += RecentT.D;
 }
+
 function Deighty(){
     var newbalance = users.user001.balance + 80 - 3.75;
     users.user001.balance = newbalance;
@@ -395,6 +413,7 @@ function Deighty(){
     var printReciept = document.getElementById("reciept");
     printReciept.innerHTML += RecentT.D;
 }
+
 function Donehundred(){
     var newbalance = users.user001.balance + 100 - 3.75;
     users.user001.balance = newbalance;
@@ -413,6 +432,7 @@ function Donehundred(){
     var printReciept = document.getElementById("reciept");
     printReciept.innerHTML += RecentT.D;
 }
+
 function Donetwenty(){
     var newbalance = users.user001.balance + 120 - 3.75;
     users.user001.balance = newbalance;
@@ -432,6 +452,7 @@ function Donetwenty(){
     printReciept.innerHTML += RecentT.D;
 }
 /////////////////////////////////////////confirm-Deposit////////////////////////////////////////////////////////
+
 function confirmDtwenty(){
     screenOutput.innerHTML = '<h4>Are you Sure you would like to Deposit $20.00</h4>'+ '<div class="container"><div class="row"><div class="transaction-1 com-sm-6"><h5 class="mw"><pre class"tab" >Yes                 NO</pre></h5><h5  class="d"><pre class"tab"4>Yes                      NO</pre></h5><h5  class="rt"><pre class"tab" >Yes            NO</pre></h5></div><div class="transaction-2 com-sm-6"><h5  class="t"></h5><h5  class="b"></h5><h5  class="c"></h5></div></div></div></div></div></div>';
     var change10 = document.getElementsByTagName("input");
@@ -443,6 +464,7 @@ function confirmDtwenty(){
     change10[5].setAttribute("onClick", "deposit();");
     // document.createElement("button").setAttribute("onclick","enterPage()")
 }
+
 function confirmDforty(){
     screenOutput.innerHTML = '<h4>Are you Sure you would like to Deposit $40.00</h4>'+ '<div class="container"><div class="row"><div class="transaction-1 com-sm-6"><h5 class="mw"><pre class"tab" >Yes                 NO</pre></h5><h5  class="d"><pre class"tab"4>Yes                      NO</pre></h5><h5  class="rt"><pre class"tab" >Yes            NO</pre></h5></div><div class="transaction-2 com-sm-6"><h5  class="t"></h5><h5  class="b"></h5><h5  class="c"></h5></div></div></div></div></div></div>';
     var change10 = document.getElementsByTagName("input");
@@ -453,6 +475,7 @@ function confirmDforty(){
     change10[4].setAttribute("onClick", "deposit();");
     change10[5].setAttribute("onClick", "deposit();");
 }
+
 function confirmDsixty(){
     screenOutput.innerHTML = '<h4>Are you Sure you would like to Deposit $60.00</h4>'+ '<div class="container"><div class="row"><div class="transaction-1 com-sm-6"><h5 class="mw"><pre class"tab" >Yes                 NO</pre></h5><h5  class="d"><pre class"tab"4>Yes                      NO</pre></h5><h5  class="rt"><pre class"tab" >Yes            NO</pre></h5></div><div class="transaction-2 com-sm-6"><h5  class="t"></h5><h5  class="b"></h5><h5  class="c"></h5></div></div></div></div></div></div>';
     var change10 = document.getElementsByTagName("input");
@@ -463,6 +486,7 @@ function confirmDsixty(){
     change10[4].setAttribute("onClick", "deposit();");
     change10[5].setAttribute("onClick", "deposit();");
 }
+
 function confirmDeighty(){
     screenOutput.innerHTML = '<h4>Are you Sure you would like to Deposit $80.00</h4>'+ '<div class="container"><div class="row"><div class="transaction-1 com-sm-6"><h5 class="mw"><pre class"tab" >Yes                 NO</pre></h5><h5  class="d"><pre class"tab"4>Yes                      NO</pre></h5><h5  class="rt"><pre class"tab" >Yes            NO</pre></h5></div><div class="transaction-2 com-sm-6"><h5  class="t"></h5><h5  class="b"></h5><h5  class="c"></h5></div></div></div></div></div></div>';
     var change10 = document.getElementsByTagName("input");
@@ -473,6 +497,7 @@ function confirmDeighty(){
     change10[4].setAttribute("onClick", "deposit();");
     change10[5].setAttribute("onClick", "deposit();");
 }
+
 function confirmDonehundered(){
     screenOutput.innerHTML = '<h4>Are you Sure you would like to Deposit $100.00</h4>'+ '<div class="container"><div class="row"><div class="transaction-1 com-sm-6"><h5 class="mw"><pre class"tab" >Yes                 NO</pre></h5><h5  class="d"><pre class"tab"4>Yes                      NO</pre></h5><h5  class="rt"><pre class"tab" >Yes            NO</pre></h5></div><div class="transaction-2 com-sm-6"><h5  class="t"></h5><h5  class="b"></h5><h5  class="c"></h5></div></div></div></div></div></div>';
     var change10 = document.getElementsByTagName("input");
@@ -483,6 +508,7 @@ function confirmDonehundered(){
     change10[4].setAttribute("onClick", "deposit();");
     change10[5].setAttribute("onClick", "deposit();");
 }
+
 function confirmDonetwenty(){
     screenOutput.innerHTML = '<h4>Are you Sure you would like to Deposit $120.00</h4>'+ '<div class="container"><div class="row"><div class="transaction-1 com-sm-6"><h5 class="mw"><pre class"tab" >Yes                 NO</pre></h5><h5  class="d"><pre class"tab"4>Yes                      NO</pre></h5><h5  class="rt"><pre class"tab" >Yes            NO</pre></h5></div><div class="transaction-2 com-sm-6"><h5  class="t"></h5><h5  class="b"></h5><h5  class="c"></h5></div></div></div></div></div></div>';
     var change10 = document.getElementsByTagName("input");
@@ -499,6 +525,7 @@ function confirmDonetwenty(){
 
 
 /////////////////////////////////////////////////////////Transfer//////////////////////////////////////////////////////////////////////
+
 function transfer(){
     hint.innerHTML = "<p>Use the pin code '1111' to access the second users account to transfer funds from the current account's balance</p>"
 
@@ -513,6 +540,7 @@ function transfer(){
     change4[5].setAttribute("onClick", "enterPage()");
     change4[6].setAttribute("onClick", "enterPage()");
 }
+
 function verifyTransfer(){
     nonChar = '';
     var AccountNumber = document.getElementById("accountnum");
@@ -532,6 +560,7 @@ function verifyTransfer(){
     }
 }
 ////////////////////Transfer Amount/////////////////////////////////////////////
+
 function transaOne(){
     var newbalance = users.user001.balance - 20 - 3.75;
     users.user001.balance = newbalance;
@@ -550,7 +579,8 @@ function transaOne(){
     var printReciept = document.getElementById("reciept");
     printReciept.innerHTML += RecentT.T;
     screenOutput.innerHTML += '<div class="container"><div class="row"><div class="transaction-1 com-sm-6"><h5 class="rt"><pre class="tab"> Continue                 Cancel</pre></h5></div><div class="transaction-2 com-sm-6"><h5 class="c"></h5></div></div></div>';
-}
+};
+
 function transaTwo(){
     var newbalance = users.user001.balance - 40 - 3.75;
     users.user001.balance = newbalance;
@@ -569,7 +599,8 @@ function transaTwo(){
     change7[5].setAttribute("onClick", "enterPage()");
     screenOutput.innerHTML += '<div class="container"><div class="row"><div class="transaction-1 com-sm-6"><h5 class="rt"><pre class="tab"> Continue                 Cancel</pre></h5></div><div class="transaction-2 com-sm-6"><h5 class="c"></h5></div></div></div>';
     
-}
+};
+
 function transaThree(){
     var newbalance = users.user001.balance - 60 - 3.75;
     users.user001.balance = newbalance;
@@ -587,7 +618,8 @@ function transaThree(){
     change7[4].setAttribute("onClick", "enterPage()");
     change7[5].setAttribute("onClick", "enterPage()");
     screenOutput.innerHTML += '<div class="container"><div class="row"><div class="transaction-1 com-sm-6"><h5 class="rt"><pre class="tab"> Continue                 Cancel</pre></h5></div><div class="transaction-2 com-sm-6"><h5 class="c"></h5></div></div></div>';
-}
+};
+
 function transaFour(){
     var newbalance = users.user001.balance - 80 - 3.75;
     users.user001.balance = newbalance;
@@ -605,7 +637,8 @@ function transaFour(){
     change7[4].setAttribute("onClick", "enterPage()");
     change7[5].setAttribute("onClick", "enterPage()");
     screenOutput.innerHTML += '<div class="container"><div class="row"><div class="transaction-1 com-sm-6"><h5 class="rt"><pre class="tab"> Continue                 Cancel</pre></h5></div><div class="transaction-2 com-sm-6"><h5 class="c"></h5></div></div></div>';
-}
+};
+
 function transaFive(){
     var newbalance = users.user001.balance - 100 - 3.75;
     users.user001.balance = newbalance;
@@ -623,7 +656,8 @@ function transaFive(){
     change7[4].setAttribute("onClick", "enterPage()");
     change7[5].setAttribute("onClick", "enterPage()");
     screenOutput.innerHTML += '<div class="container"><div class="row"><div class="transaction-1 com-sm-6"><h5 class="rt"><pre class="tab"> Continue                 Cancel</pre></h5></div><div class="transaction-2 com-sm-6"><h5 class="c"></h5></div></div></div>';
-}
+};
+
 function transaSix(){
     var newbalance = users.user001.balance - 120 - 3.75;
     users.user001.balance = newbalance;
@@ -641,7 +675,7 @@ function transaSix(){
     change7[4].setAttribute("onClick", "enterPage()");
     change7[5].setAttribute("onClick", "enterPage()");
     screenOutput.innerHTML += '<div class="container"><div class="row"><div class="transaction-1 com-sm-6"><h5 class="rt"><pre class="tab"> Continue                 Cancel</pre></h5></div><div class="transaction-2 com-sm-6"><h5 class="c"></h5></div></div></div>';
-}
+};
 ////////////////////Transfer Amount/////////////////////////////////////////////
 ///////////////////Confirm-Transaction//////////////////////////////////////////////
 function confirmtransaOne(){
@@ -653,7 +687,8 @@ function confirmtransaOne(){
     change10[3].setAttribute("onClick", "Caution();");
     change10[4].setAttribute("onClick", "Caution();");
     change10[5].setAttribute("onClick", "Caution();");
-}
+};
+
 function confirmtransaTwo(){
     screenOutput.innerHTML = '<h4>Are you sure you would like to deposit/transfer $40.00 into this account</h4>' + '<div class="container"><div class="row"><div class="transaction-1 com-sm-6"><h5 class="mw"><pre class"tab" >Yes                 NO</pre></h5><h5  class="d"><pre class"tab"4>Yes                      NO</pre></h5><h5  class="rt"><pre class"tab" >Yes            NO</pre></h5></div><div class="transaction-2 com-sm-6"><h5  class="t"></h5><h5  class="b"></h5><h5  class="c"></h5></div></div></div></div></div></div>';
     var change10 = document.getElementsByTagName("input");
@@ -663,7 +698,8 @@ function confirmtransaTwo(){
     change10[3].setAttribute("onClick", "Cautiontwo();");
     change10[4].setAttribute("onClick", "Cautiontwo();");
     change10[5].setAttribute("onClick", "Cautiontwo();");
-}
+};
+
 function confirmtransaThree(){
     screenOutput.innerHTML = '<h4>Are you sure you would like to deposit/transfer $60.00 into this account</h4>' + '<div class="container"><div class="row"><div class="transaction-1 com-sm-6"><h5 class="mw"><pre class"tab" >Yes                 NO</pre></h5><h5  class="d"><pre class"tab"4>Yes                      NO</pre></h5><h5  class="rt"><pre class"tab" >Yes            NO</pre></h5></div><div class="transaction-2 com-sm-6"><h5  class="t"></h5><h5  class="b"></h5><h5  class="c"></h5></div></div></div></div></div></div>';
     var change10 = document.getElementsByTagName("input");
@@ -673,7 +709,8 @@ function confirmtransaThree(){
     change10[3].setAttribute("onClick", "Cautionthree();");
     change10[4].setAttribute("onClick", "Cautionthree();");
     change10[5].setAttribute("onClick", "Cautionthree();");
-}
+};
+
 function confirmtransaFour(){
     screenOutput.innerHTML = '<h4>Are you sure you would like to deposit/transfer $80.00 into this account</h4>' + '<div class="container"><div class="row"><div class="transaction-1 com-sm-6"><h5 class="mw"><pre class"tab" >Yes                 NO</pre></h5><h5  class="d"><pre class"tab"4>Yes                      NO</pre></h5><h5  class="rt"><pre class"tab" >Yes            NO</pre></h5></div><div class="transaction-2 com-sm-6"><h5  class="t"></h5><h5  class="b"></h5><h5  class="c"></h5></div></div></div></div></div></div>';
     var change10 = document.getElementsByTagName("input");
@@ -683,7 +720,8 @@ function confirmtransaFour(){
     change10[3].setAttribute("onClick", "Cautionfour();");
     change10[4].setAttribute("onClick", "Cautionfour();");
     change10[5].setAttribute("onClick", "Cautionfour();");
-}
+};
+
 function confirmtransaFive(){
     screenOutput.innerHTML = '<h4>Are you sure you would like to deposit/transfer $100.00 into this account</h4>' + '<div class="container"><div class="row"><div class="transaction-1 com-sm-6"><h5 class="mw"><pre class"tab" >Yes                 NO</pre></h5><h5  class="d"><pre class"tab"4>Yes                      NO</pre></h5><h5  class="rt"><pre class"tab" >Yes            NO</pre></h5></div><div class="transaction-2 com-sm-6"><h5  class="t"></h5><h5  class="b"></h5><h5  class="c"></h5></div></div></div></div></div></div>';
     var change10 = document.getElementsByTagName("input");
@@ -693,7 +731,8 @@ function confirmtransaFive(){
     change10[3].setAttribute("onClick", "Cautionfive();");
     change10[4].setAttribute("onClick", "Cautionfive();");
     change10[5].setAttribute("onClick", "Cautionfive();");
-}
+};
+
 function confirmtransaSix(){
     screenOutput.innerHTML = '<h4>Are you sure you would like to deposit/transfer $120.00 into this account</h4>' + '<div class="container"><div class="row"><div class="transaction-1 com-sm-6"><h5 class="mw"><pre class"tab" >Yes                 NO</pre></h5><h5  class="d"><pre class"tab"4>Yes                      NO</pre></h5><h5  class="rt"><pre class"tab" >Yes            NO</pre></h5></div><div class="transaction-2 com-sm-6"><h5  class="t"></h5><h5  class="b"></h5><h5  class="c"></h5></div></div></div></div></div></div>';
     var change10 = document.getElementsByTagName("input");
@@ -703,7 +742,9 @@ function confirmtransaSix(){
     change10[3].setAttribute("onClick", "Cautionsix();");
     change10[4].setAttribute("onClick", "Cautionsix();");
     change10[5].setAttribute("onClick", "Cautionsix();");
-}
+
+};
+
 /////////////////////////////////////////////////////////Transfer//////////////////////////////////////////////////////////////////////
 
 /////////////////////////////////////////////////////////Caution_leaving_transfer//////////////////////////////////////////////////////////////////////
@@ -811,58 +852,3 @@ function Cancel(){
     canceled.innerHTML+= '<img src="imgs/cash-out.jpg" alt=""></div><div class="numbers col-sm-4"><input type="button" id="num0" class="btn" value="1" /><input type="button" id="num1" class="btn" value="2"/><input type="button" id="num2" class="btn" value="3"/><input type="button" id="num3" class="btn" value="4"/><input type="button" id="num4" class="btn" value="5"/><input type="button" id="num5" class="btn" value="6"/><input type="button" id="num6" class="btn" value="7"/><input type="button" id="num7" class="btn" value="8"/><input type="button" id="num8" class="btn" value="9"/><input type="button" id="num9" class="btn" value="0"/><input type="button" id="Clr" class="btnDC" value="CLR" onclick ="clearPassword()"/><input type="button" id="Del" class="btnDC" value="DEL" onClick="deleteChar()"/></div></div></div></div></div><div class="entire-AtmScreen-2"></div>'
 }
 //////////////////////////////////////////////////////////////////////Continue/Cancel///////////////////////////////////////////////
-
-// function clickedButtona(btna){
-    //     var transfera = document.getElementById("ta");
-    
-    //     transfera.value = btna;
-    //     console.log(btna);
-    // };   
-    // function showClickedButtona(btna){
-        //     clickedButtona(nonChar+=btna)
-        //     console.log(btna);
-        
-        // };  
-        
-        ////////////////////Key-pad/////////////////////////////////////////////
-        // function clickedButtona(btna){
-            //     var AccountNumber = document.getElementById("accountnum");
-            
-            //     AccountNumber.value = btna;
-            //     console.log(btna);
-            // };   
-            // function showClickedButtona(btna){
-                //     clickedButtona(nonChara+=btna)
-                //     console.log(btna);
-                
-                // };  
-                
-                // function displayPassword(){
-                    //     box = document.querySelector("#plainPsWord");
-                    //       if (box.checked ==false){
-                        //       psword.type = "password";
-                        //     }    
-                        //   else{
-                            //       psword.type = "text"
-                            //   }
-                            // }
-                            
-                            // '<div class="container"><div class="row"><div class="col-sm-2"><a href="withdrawl.html"><button>Withdrawl</button></a><a href="#"><button>Deposit</button></a><a href="#"><button>Tractions</button></a></div><div class="col-sm-2"><a href="#"><button>Transfer</button></a><a href="#"><button>Balance</button></a><a href="#"><button>Cancel</button></a></div><div class="col-sm-2"></div><div class="col-sm-2"></div><div class="col-sm-2"></div><div class="col-sm-2"></div></div></div>';
-                            
-                            // "<h3>What amount would <br>you like to withdrawl?</h3>" + '<br>' + '<input type="radio" value="100" name="choice1" id="complereW" onclick="Amount();">100</input><input type="radio" value="120" name="choice2" onclick="Amount();">120</input><input type="radio" value="140" name="choice3" onclick="Amount();">140</input>'
-                            // var change5 = document.getElementsByTagName("input");
-                            //     change5[6].setAttribute("onClick", "showClickedButton(this.value);");
-                            //    change5[7].setAttribute("onClick", "showClickedButton(this.value);");
-                            //    change5[8].setAttribute("onClick", "showClickedButton(this.value);");
-                            //    change5[9].setAttribute("onClick", "showClickedButton(this.value);");
-                            //    change5[10].setAttribute("onClick", "showClickedButton(this.value);");
-                            //    change5[11].setAttribute("onClick", "showClickedButton(this.value);");
-                            //    change5[12].setAttribute("onClick", "showClickedButton(this.value);");
-                            //    change5[13].setAttribute("onClick", "showClickedButton(this.value);");
-                            //    change5[14].setAttribute("onClick", "showClickedButton(this.value);");
-                            //    change5[15].setAttribute("onClick", "showClickedButton(this.value);");
-                            //    change5[16].setAttribute("onClick", "showClickedButton(this.value);");
-                            //    change5[17].setAttribute("onClick", "showClickedButton(this.value);");
-                            // var Reciept = RecentT;
-// var printReciept = document.getElementById("reciept");
-// printReciept.innerHTML += Reciept;
