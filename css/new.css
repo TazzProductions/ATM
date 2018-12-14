@@ -5,7 +5,7 @@ body{
     background-color: rgb(190, 189, 189);
     border-left: solid 55px gray;
     /* border-right: solid 55px gray; */
-    border-image: url(wall.jpg);
+    border-image: url(imgs/wall.jpg);
     border-image-width: 400px;
 }
 
@@ -171,85 +171,87 @@ background-color: #fff;
 }
 .w{
     margin-top: -13px;
-    }
-    .d{
-        margin-top: 3px;    }
-    .rt{
+}
+.d{
+    margin-top: 3px;    
+}
+.rt{
     margin-top: 50px;
-    }
-    .t{
-    
-    }
-    .b{
+}
+.t{
+
+}
+.b{
     margin-top: 66px;
-    }
-    .c{
+}
+.c{
     margin-top: 64px;
-    }
-    .cash{
-        display: inline-block;
-        padding: 15px;
-    }
-    .transaction-1{
-        margin-left: -324px;
+}
+.cash{
+    display: inline-block;
+    padding: 15px;  
+}
+.transaction-1{
+    margin-left: -324px;
     margin-top: -15px;
-    }
-    .transaction-2{
-        position: absolute;
-        top: 316px;
-        margin-left: 40px
-    }
-    .reciept-out{
-        display: inline-block;
+}
+.transaction-2{
+    position: absolute;
+    top: 316px;
+    margin-left: 40px
+}
+.reciept-out{
+    display: inline-block;
     padding: 16px 60px;
     position: absolute;
     top: 488px;
     background-color: rgb(114, 106, 106);
     margin-left: 963px;
     border-radius: 13px;
-    }
-    .reciept{
-        position: absolute;
-        top: 338px;
-        margin-left: 541px;
-        width: 100px;
-        height: 10px;
-        /* background: rgb(112, 104, 104); */
-        -webkit-transition: height 2s ease;
-        transition: height 2s ease;
-            /* display: inline-block; */
-            padding: 10px;
-            background-color: #fff;
-            display: flex;
-        flex-direction: column;
-        
-    }
-    .reciept {
-        position: absolute;
-    /* width: 100%; */
+}
+.reciept{
+    position: absolute;
+    top: 338px;
+    margin-left: 541px;
+    width: 100px;
+    height: 10px;
+    -webkit-transition: height 2s ease;
+    transition: height 2s ease;
+    padding: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.reciept {
+    position: absolute;
     top: 499px;
     margin-left: 974px;
     transform: rotateX(1deg);
-    }
-    .reciept:hover {
-        height: 100px;
+}
+
+.reciept:hover {
+    height: 100px;
+}
+
+.side-walk{
+    background-repeat: repeat-x;
+    border-bottom: 317px solid #555;
+    border-left: 25px solid transparent;
+    border-right: 102px solid transparent;
+    height: 0px;
+    width: 1687px;
+    margin-top: 134px;
     
-    }
-    .side-walk{
-        background-repeat: repeat-x;
-        border-bottom: 317px solid #555;
-        border-left: 25px solid transparent;
-        border-right: 102px solid transparent;
-        height: 0px;
-        width: 1687px;
-        margin-top: 134px;
-        margin-left: -86px;
-        border-image: url(sidewalk.jpg);
-        background-image: url(sidewalk.jpg);
-        transform: rotatez(0);
-    }
-    .side-walk-t{
-        width: 162px;
+    margin-left: -86px;
+    border-image: url(imgs/sidewalk.jpg);
+    background-image: url(imgs/sidewalk.jpg);
+    transform: rotatez(0);
+}
+
+.side-walk-t{
+    width: 162px;
     height: 80px;
     background-color: rgb(104, 113, 119);
     border: solid rgb(206, 204, 204) 37px;
@@ -257,25 +259,24 @@ background-color: #fff;
     border-left: rgb(172, 172, 172) solid 12px;
     margin-left: 937px;
     margin-top: -976px;
-    /* transition: .5s ease; */
-    }
-    .side-walk-t img{
-        width: 135px;
-        height: 173px;
-    
-    }
-    .side-walk-t:hover .card {
-        height: 173px;
-        box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.side-walk-t img{
+    width: 135px;
+    height: 173px;
 
-      }
-      .card{
-        position: absolute;
+}
+
+.side-walk-t:hover .card {
+    height: 173px;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+
+}
+.card{
+    position: absolute;
     top: 131px;
     bottom: 0;
     left: 1004px;
     right: 9px;
-    /* background-color: #008CBA; */
     overflow: hidden;
     width: 134px;
     height: 0;
@@ -283,59 +284,60 @@ background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 4px;
         /* transform: rotate(50deg) */
-    }
-    /* transform: rotateZ(180deg);
-    border-bottom: 130px solid #555;
-    border-left: 105px solid rgb(211, 180, 240);
-    border-right: 102px solid transparent;
-    height: 0px;
-    width: 988px;
-    margin-top: -423px;
-    margin-left: 222px; */
-    .entire-AtmScreen-1 {
-        position: absolute;
-    top: 0;
-    width: 0px;
-    height: 754px;
-    border-top: 25px solid transparent;
-    border-left: 120px solid #555;
-    border-bottom: 0px solid transparent;
-    margin-left: 1482px;
-    }
-    .hint-screen{
-        transform: rotateX(1deg);
-        width: 265px;
-        height: 116px;
-        background-color: #59A5D8;
-        /* border: solid rgb(85, 87, 92) 14px; */
-        border: solid rgb(206, 204, 204) 14px;
-        border-right: rgb(172, 172, 172) solid 40px;
-        border-left: rgb(172, 172, 172) solid 40px;
-        margin-left: 797px;
-        margin-top: 453px;
-    
-    }
-    .hint-screen-output{
-        text-align: center;
-        display: inline-flex;
-        flex-direction: column;
-        /* padding-left: 81px; */
-        /* padding-right: 305px; */
-        padding-top: 15px;
-        background-color: #fff;
-        margin-left: 0px;
-        margin-right: 0px;
-        /* border-radius: 32px; */
-        word-wrap: break-word;
-        margin-bottom: 0px;
-        margin-top: 0;
-        /* border-top-right-radius: 0px; */
-        border-bottom-right-radius: 0px;
-        max-height: 264px;
-        width: 420px;
-        background-color: rgb(150, 194, 194);
-        height: 100px;
-         width: 200px;
-    
-    }
-    /* border-right: rgb(172, 172, 172) solid 40px; */
+
+}
+/* transform: rotateZ(180deg);
+border-bottom: 130px solid #555;
+border-left: 105px solid rgb(211, 180, 240);
+border-right: 102px solid transparent;
+height: 0px;
+width: 988px;
+margin-top: -423px;
+margin-left: 222px; */
+.entire-AtmScreen-1 {
+    position: absolute;
+top: 0;
+width: 0px;
+height: 754px;
+border-top: 25px solid transparent;
+border-left: 120px solid #555;
+border-bottom: 0px solid transparent;
+margin-left: 1482px;
+}
+.hint-screen{
+    transform: rotateX(1deg);
+    width: 265px;
+    height: 116px;
+    background-color: #59A5D8;
+    /* border: solid rgb(85, 87, 92) 14px; */
+    border: solid rgb(206, 204, 204) 14px;
+    border-right: rgb(172, 172, 172) solid 40px;
+    border-left: rgb(172, 172, 172) solid 40px;
+    margin-left: 797px;
+    margin-top: 453px;
+
+}
+.hint-screen-output{
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    /* padding-left: 81px; */
+    /* padding-right: 305px; */
+    padding-top: 15px;
+    background-color: #fff;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* border-radius: 32px; */
+    word-wrap: break-word;
+    margin-bottom: 0px;
+    margin-top: 0;
+    /* border-top-right-radius: 0px; */
+    border-bottom-right-radius: 0px;
+    max-height: 264px;
+    width: 420px;
+    background-color: rgb(150, 194, 194);
+    height: 100px;
+        width: 200px;
+
+}
+/* border-right: rgb(172, 172, 172) solid 40px; */
